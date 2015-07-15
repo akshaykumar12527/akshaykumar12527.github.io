@@ -1,0 +1,9 @@
+{
+  "name": "paked.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paked/paked.github.io",
+  "authors": [
+    "Harrison <harrison@theshoebridges.com>"
+  ],
+  "license": "MIT"
+}
