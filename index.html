@@ -1,11 +1,18 @@
 ---
-layout: default
+layout: home
 ---
+<ul>
+{% for post in site.posts %}
 
-<section role="banner">
-    <img src="/img/banner.jpg">
-</section>
+<li>
+    <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <div class="demo">
+            <img src="{{ post.image }}" />
+        </div>
+        <p>{{ post.description }}</p>
+    </a>
+</li>
 
-<section class="content">
-    <p>Welcome to my (indev) site. The portfolio is <a href="/portfolio/">here</a></p>
-</section>
+{% endfor %}
+</ul>

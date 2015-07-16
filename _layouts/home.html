@@ -1,0 +1,39 @@
+<html>
+	<head>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} Harrison Shoebridge, Developer</title>
+		<!-- Google meta tag -->
+		<meta name="google-site-verification" content="8iD0i_5XYXY1FJX-qcMpIh2JFFBG27dzk8FZBubJ_80" />
+        <meta name="description" content="Welcome to the personal website of Harrison Shoebridge!">
+
+        <link rel="stylesheet" type="text/css" href="/lib/skeleton/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="/lib/skeleton/css/skeleton.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="container"> 
+				<div class="row">
+					<div class="six columns">
+						<h1><a href="/">Harrison Shoebridge</a></h1>
+						<h3>I like making things</h3>
+					</div>
+
+					<div class="five columns">
+						<nav class="u-pull-right`">
+							<ul>
+								<li><a href="/me.html">About Me</a></li>
+								<li><a href="#">Code</a></li>
+								<li><a href="#">Experience</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+        </header>	
+
+        <div class="container">
+            {{ content }}
+        </div>
+	</body>
+</html>
