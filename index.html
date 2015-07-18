@@ -1,18 +1,58 @@
----
-layout: home
----
-<ul>
-{% for post in site.posts %}
+<!DOCTYPE html>
 
-<li>
-    <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-        <div class="demo">
-            <img src="{{ post.image }}" />
-        </div>
-        <p>{{ post.description }}</p>
-    </a>
-</li>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="The personal website of Harrison Shoebridge.">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Programming,Resume">
+        <meta name="author" content="Harrison Shoebridge">
 
-{% endfor %}
-</ul>
+        <title>Harrison Shoebridge's Website</title>
+    </head>
+
+    <body>
+        <h1>Harrison Shoebridges's Website</h1>
+
+        <img src="/img/derp.png" width="700px"/>
+        <p>Hello, I'm Harrison. You are currently viewing my little website. And, yes I realise there is no CSS here... One day I might just fix it up!</p>
+        <p>I am a programmer based in Sydney, Australia with a passion for startups. I also attend that school thing.</p>
+
+        <h2>Other Places You Can Find Me</h2>
+        <ul>
+            <li><a href="http://github.com/paked">Github</a></li>
+            <li><a href="http://twitter.com/hshoebridge">Twitter</a></li>
+            <li><a href="https://webchat.freenode.net/">IRC (irc.freenode.net) under the alias hcwool</a></li>
+        </ul>
+
+        <h2>Work</h2>
+        <p>This is a general overview, for my full resume <a href="mailto:harrison@theshoebridges.com">contact me</a>.</p>
+
+        <h3>Current</h3>
+        <p>Currently teaching kids to make games in Scratch and websites with HTML, CSS and Python 3 at <a href="http://code4fun.com.au">Sydney Programming School</a>.</p>
+
+        <h3>Past</h3>
+        <ul>
+            <li>Mobile Application Developer at <a href="http://torquedata.com.au/">Torque Data</a></li>
+            <li>Holiday Instructor at Kids Holiday Program</li>
+            <li>Software Engineer at <a href="http://www.binu.com/">biNu</a></li>
+        </ul>
+
+        <h3>Github</h3>
+        <ul>
+            <li><a href="http://github.com/paked/configure">Configure</a></li>
+            <li><a href="http://github.com/Hackalist/Hackalist.github.io">Hackalist.org</a></li>
+            <li><a href="http://github.com/paked/models">Models</a></li>
+            <li><a href="http://github.com/WatchPeopleCode/SideBar-Bot">SideBar-Bot</a></li>
+            <li><a href="http://github.com/WatchPeopleCode/IRC-Bot">IRC-Bot</a></li>
+            <li><a href="http://github.com/paked/engi">Engi</a></li>
+            <li><a href="http://github.com/ncss-2015-group-4/trivia">Quizzi</a></li>
+            <li><a href="https://github.com/mozilla/mozregression">mozregression</a></li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>I am more than happy to talk startups, programming, life, jobs or anything else!</p>
+        <a href="mailto:harrison@theshoebridges.com">harrison@theshoebridges.com</a>
+
+        <h6>Inspired by <a href="http://zachlatta.com">Zach Latta's Website</a></h6>
+    </body>
+</html>
