@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #221917;
+
+    background-color: #F8FAEE;
+    background-image: url('http://i.imgur.com/xjeNeCc.png');
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #8DA6B4;
+}
+
+.ic {
+    color: #8DA6B4;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.highlight {
+    color: #202A41;
+    font-weight: 400;
+}
+
+.highlight.red {
+    color: #FF384C;
+}
+
+.highlight.green {
+    color: #6ADB00;
+}
+
+.circle {
+    width: 100%;
+    max-width: 400px;
+
+    border-radius: 50%;
+}
