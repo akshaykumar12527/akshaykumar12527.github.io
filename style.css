@@ -40,3 +40,9 @@ a {
 
     border-radius: 50%;
 }
+
+.projects li {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
