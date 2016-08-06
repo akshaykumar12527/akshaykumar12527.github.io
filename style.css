@@ -37,7 +37,7 @@ a {
 .circle {
     width: 100%;
     max-width: 400px;
-
+    min-height: 370px;
     border-radius: 50%;
 }
 
