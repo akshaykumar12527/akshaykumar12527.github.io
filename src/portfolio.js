@@ -49,16 +49,33 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Boundary-Pushing Full Stack Developer | Exploring All Things Tech 🚀",
+  subTitle:
+    "Boundary-Pushing Full Stack Developer | Exploring All Things Tech 🚀",
   skills: [
-    emoji("🚀 Craft highly scalable backends using Monolith and Microservice architectures."),
-    emoji("☁️ Manage cloud infrastructure on AWS and GCP for optimized performance."),
-    emoji("🐳 Expertise in containerized applications and CI/CD pipelines for smooth deployments."),
-    emoji("💻 Create powerful desktop applications with Electron for cross-platform usability."),
-    emoji("🛠️ Master at building robust software solutions from scratch with a developer’s precision."),
-    emoji("🌐 Develop high-performance web applications with React for engaging user experiences."),
-    emoji("📱 Build dynamic and responsive mobile apps with React Native for seamless experiences."),
-    emoji("🔗 Seamlessly integrate third-party APIs to extend functionality and enhance user experiences.")
+    emoji(
+      "🚀 Craft highly scalable backends using Monolith and Microservice architectures."
+    ),
+    emoji(
+      "☁️ Manage cloud infrastructure on AWS and GCP for optimized performance."
+    ),
+    emoji(
+      "🐳 Expertise in containerized applications and CI/CD pipelines for smooth deployments."
+    ),
+    emoji(
+      "💻 Create powerful desktop applications with Electron for cross-platform usability."
+    ),
+    emoji(
+      "🛠️ Master at building robust software solutions from scratch with a developer’s precision."
+    ),
+    emoji(
+      "🌐 Develop high-performance web applications with React for engaging user experiences."
+    ),
+    emoji(
+      "📱 Build dynamic and responsive mobile apps with React Native for seamless experiences."
+    ),
+    emoji(
+      "🔗 Seamlessly integrate third-party APIs to extend functionality and enhance user experiences."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -143,14 +160,14 @@ const educationInfo = {
       logo: require("./assets/images/woolfuniversity_logo.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - August 2024",
-      desc: "Ranked top 10% in the program. Took courses about Data Structures, Databases, Software Engineering, Backend Systems, System Design, High Level Design and Low Level Design.",
+      desc: "Ranked top 10% in the program. Took courses about Data Structures, Databases, Software Engineering, Backend Systems, System Design, High Level Design and Low Level Design."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "Guru Jambheshwar University of Science and Technology",
       logo: require("./assets/images/gjustLogo.png"),
       subHeader: "Bachelor of Technology  in Computer Science and Engineering",
-      duration: "July 2012 - June 2015",
+      duration: "July 2012 - June 2015"
     }
   ]
 };
@@ -168,36 +185,36 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
-      Stack: 'Desktop Application Development',
-      progressPercentage: '80%'
+      Stack: "Desktop Application Development",
+      progressPercentage: "80%"
     },
     {
-      Stack: 'Cloud & Infrastructure',
-      progressPercentage: '90%'
+      Stack: "Cloud & Infrastructure",
+      progressPercentage: "90%"
     },
     {
-      Stack: 'DevOps',
-      progressPercentage: '70%'
+      Stack: "DevOps",
+      progressPercentage: "70%"
     },
     {
-      Stack: 'Database Management',
-      progressPercentage: '90%'
+      Stack: "Database Management",
+      progressPercentage: "90%"
     },
     {
-      Stack: 'Data Structures & Algorithms',
-      progressPercentage: '90%'
+      Stack: "Data Structures & Algorithms",
+      progressPercentage: "90%"
     },
     {
-      Stack: 'Cyber Security',
-      progressPercentage: '50%'
+      Stack: "Cyber Security",
+      progressPercentage: "50%"
     },
     {
-      Stack: 'AI/ML & Data Science',
-      progressPercentage: '60%'
+      Stack: "AI/ML & Data Science",
+      progressPercentage: "60%"
     },
     {
-      Stack: 'Product Management',
-      progressPercentage: '50%'
+      Stack: "Product Management",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -213,7 +230,7 @@ const workExperiences = {
       company: "Ec-Council",
       companylogo: require("./assets/images/ec-awareLogo.webp"),
       date: "Jan 2019 – Present",
-      desc: "Handled all aspects of the Aware product implementation, including database design in MongoDB, implementation in Node, React, and Mithriljs, and deployment. I created the product from the ground up in a monolithic architecture.",
+      desc: "Handled all aspects of the Aware product implementation, including database design in MongoDB, implementation in Node, React, and Mithriljs, and deployment. I created the product from the ground up in a monolithic architecture."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -260,7 +277,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ec-awareLogo.webp"),
       projectName: "OhPhish",
-      projectDesc: "OhPhish is a Phishing Simulation tool which provides the organisation a platform to trigger phishing simulation campaigns on their employees.",
+      projectDesc:
+        "OhPhish is a Phishing Simulation tool which provides the organisation a platform to trigger phishing simulation campaigns on their employees.",
       footerLink: [
         {
           name: "Visit Website",
@@ -423,7 +441,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+918802813876",
   email_address: "akshaykumar12527@gmail.com"
 };
