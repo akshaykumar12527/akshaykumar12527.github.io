@@ -6,6 +6,7 @@
     url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
