@@ -178,43 +178,43 @@ const techStack = {
   experience: [
     {
       Stack: "Fullstack Web Development", //Insert stack or technology you have experience in
-      progressPercentage: "100%" //Insert relative proficiency in percentage
+      progressPercentage: "100%"
     },
     {
       Stack: "Mobile Development",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Desktop Application Development",
-      progressPercentage: "80%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Cloud & Infrastructure",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "DevOps",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Database Management",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Data Structures & Algorithms",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Cyber Security",
-      progressPercentage: "50%"
+      progressPercentage: "100%"
     },
     {
       Stack: "AI/ML & Data Science",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Product Management",
-      progressPercentage: "50%"
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
