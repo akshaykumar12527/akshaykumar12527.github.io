@@ -229,7 +229,7 @@ const workExperiences = {
       role: "Tech Lead",
       company: "Ec-Council",
       companylogo: require("./assets/images/ec-awareLogo.webp"),
-      date: "Jan 2019 – Present",
+      date: "Nov 2017 – Present",
       desc: "Handled all aspects of the Aware product implementation, including database design in MongoDB, implementation in Node, React, and Mithriljs, and deployment. I created the product from the ground up in a monolithic architecture."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
